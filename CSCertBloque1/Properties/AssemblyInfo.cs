@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
 [assembly: AssemblyTitle("CSCertBloque1")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Ensamblado para solución de ejercicios de bloque 1")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("Extreme Solutions")]
 [assembly: AssemblyProduct("CSCertBloque1")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2019")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © Extreme Solutions 2019")]
+[assembly: AssemblyTrademark("Extreme Solutions Trademark")]
 [assembly: AssemblyCulture("")]
 
 // Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles 
