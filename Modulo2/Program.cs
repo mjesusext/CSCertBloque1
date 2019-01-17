@@ -104,6 +104,61 @@ namespace Modulo2
             Console.WriteLine("----- Ejercicio 8: final -----\n");
             #endregion
 
+            #region Ejercicio 9
+            Console.WriteLine("----- Ejercicio 9: inicio -----\n");
+
+            //Crear variable sin inicializar y mostrar por pantalla --> Error por variable no asignada. SIEMPRE HAY QUE INICIALIZAR VARIABLES PARA USARLAS
+            //long numeroGranceSinIni;
+
+            //Crear variable e inicializar sin saber que valor inicial debe asignarse --> Uso de default
+            long numeroGranceSinIni = default(long);
+            Console.WriteLine(numeroGranceSinIni);
+
+            Console.WriteLine("----- Ejercicio 9: final -----\n");
+            #endregion
+
+            #region Ejercicio 10
+            Console.WriteLine("----- Ejercicio 10: inicio -----\n");
+
+            //Fragmento de código propuesto, al hacer división de enteros el resultado se procesa como entero. C# no necesita promocionar tipos para "cumplir"
+            int i = 5;
+            double d = i / 2;
+            Console.WriteLine(d);
+
+            //Solución 1: que cualquiera de los operandos sea de un tipo que admita decimales y tenga capacidad suficiente
+            double ib = 5;
+            d = ib / 2;
+            Console.WriteLine(d);
+
+            //Sufijo double
+            d = i / 2D;
+            Console.WriteLine(d);
+
+            //Sufijo float
+            d = i / 2F;
+            Console.WriteLine(d);
+
+            //Solución 2: conversión explicita de la operación 
+            d = (double)i / 2;
+            Console.WriteLine(d);
+
+            Console.WriteLine("----- Ejercicio 10: final -----\n");
+            #endregion
+
+            #region Ejercicio 11
+            Console.WriteLine("----- Ejercicio 11: inicio -----\n");
+
+            int ValorEntero = 5;
+            double ValorDouble;
+
+            ValorDouble = (ValorEntero * 7 + 2 + 4) / 2F;
+            Console.WriteLine(ValorDouble);
+            ValorDouble = (ValorEntero * 7 + 2 + 4) / 2D;
+            Console.WriteLine(ValorDouble);
+
+            Console.WriteLine("----- Ejercicio 11: final -----\n");
+            #endregion
+
             Console.ReadLine();
         }
     }
