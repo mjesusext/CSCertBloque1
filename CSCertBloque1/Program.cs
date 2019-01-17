@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSCertBloque1
+namespace Modulo1
 {
     class Program
     {
