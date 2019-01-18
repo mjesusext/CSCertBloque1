@@ -121,31 +121,80 @@ namespace Modulo3
             #endregion
 
             #region Ejercicio 4
-            Console.WriteLine("----- Ejercicio 4: inicio -----\n");
+            //Console.WriteLine("----- Ejercicio 4: inicio -----\n");
 
-            Console.WriteLine("Introduza un número para múltiplicarlo x 3. Si introduce 0 se realiza la multiplicación y se finaliza");
-            int numEj3;
-            const int multConst = 3;
-            bool OKvalue;
+            //Console.WriteLine("Introduza un número para múltiplicarlo x 3. Si introduce 0 se realiza la multiplicación y se finaliza");
+            //int numEj3;
+            //const int multConst = 3;
+            //bool OKvalue;
 
-            do
-            {
-                Console.WriteLine("Introduzca valor: ");
-                OKvalue = int.TryParse(Console.ReadLine(), out numEj3);
+            //do
+            //{
+            //    Console.WriteLine("Introduzca valor: ");
+            //    OKvalue = int.TryParse(Console.ReadLine(), out numEj3);
 
-                if (OKvalue)
-                {
-                    Console.WriteLine("Resultado: " + numEj3.ToString() + " X " + multConst.ToString() + " = " + (numEj3 * multConst).ToString());
-                }
-                else
-                {
-                    Console.WriteLine("Valor no valido. Reinténtelo.");
-                    numEj3 = -1;
-                }
-            }
-            while (numEj3 != 0);
+            //    if (OKvalue)
+            //    {
+            //        Console.WriteLine("Resultado: " + numEj3.ToString() + " X " + multConst.ToString() + " = " + (numEj3 * multConst).ToString());
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Valor no valido. Reinténtelo.");
+            //        numEj3 = -1;
+            //    }
+            //}
+            //while (numEj3 != 0);
 
-            Console.WriteLine("----- Ejercicio 4: final -----\n");
+            //Console.WriteLine("----- Ejercicio 4: final -----\n");
+            #endregion
+
+            #region Ejercicio 5
+            //Console.WriteLine("----- Ejercicio 5: inicio -----\n");
+
+            //bool ERRvalueEj5;
+            //int valueEj5;
+            //Console.WriteLine("Introduzca un valor del 0 al 9 para mostrar la tabla de múltiplicar");
+
+            //do
+            //{
+            //    Console.WriteLine("Valor: ");
+            //    ERRvalueEj5 = !(int.TryParse(Console.ReadLine(), out valueEj5));
+
+            //    if (ERRvalueEj5)
+            //    {
+            //        Console.WriteLine("Valor erroneo. Reinténtelo.");
+            //    }
+            //    else if (valueEj5 < 0 || valueEj5 > 9)
+            //    {
+            //        Console.WriteLine("Valor fuera de rango. Debe ser entre 0 y 9");
+            //        ERRvalueEj5 = true;
+            //    }
+            //} while (ERRvalueEj5);
+
+            //Console.WriteLine("Tabla del " + valueEj5.ToString() + ":");
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    Console.WriteLine(valueEj5.ToString() + " X " + i.ToString() + " = " + (valueEj5 * i).ToString() + "\n");
+            //}
+
+            //Console.WriteLine("----- Ejercicio 5: final -----\n");
+            #endregion
+
+            #region Ejercicio 6
+            //Console.WriteLine("----- Ejercicio 6: inicio -----\n");
+
+            //Console.WriteLine("Tablas de múltiplicar del 2 al 5");
+
+            //for (int j = 2; j <= 5; j++)
+            //{
+            //    Console.WriteLine("Tabla del " + j.ToString() + ":");
+            //    for (int i = 0; i < 10; i++)
+            //    {
+            //        Console.WriteLine(j.ToString() + " X " + i.ToString() + " = " + (j * i).ToString() + "\n");
+            //    }
+            //}
+            
+            //Console.WriteLine("----- Ejercicio 6: final -----\n");
             #endregion
 
             Console.ReadLine();
